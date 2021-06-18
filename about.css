@@ -1,0 +1,50 @@
+.about-container 
+{
+    color:#8f8f8f;
+    width:70%;
+    margin: 0 auto;
+    /* margin-top:20%; */
+}
+.about-container h2
+{
+    color:var(--blue-2);
+}
+.steps-container
+{
+    margin: 0 auto;
+    width:70%;
+
+
+    color:#8f8f8f;
+    color: #eee;
+
+}
+.steps-container h2
+{
+    color:var(--blue-2);
+}
+.attr ,.step
+{
+    color: #eee;
+}
+@media(max-width:490px)
+{
+    .about-container 
+    {
+        color:#8f8f8f;
+        width:100%;
+        margin: 0 auto;
+        /* margin-top:20%; */
+    }
+
+    .steps-container
+    {
+        margin: 0 auto;
+        width:100%;
+
+
+        color:#8f8f8f;
+        color: #eee;
+
+    }
+}

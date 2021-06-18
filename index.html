@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ScriptType</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ScriptType</h1>
+        <div class="nav-container">
+            <nav>
+                <a href="index.html" class="link-active">Test</a>
+                <a href="#">Leaderboard</a>
+                <a href="about.html">About</a>
+                <a href="#">Login</a>
+                <a href="#">Signup</a>
+            </nav>
+        </div>
+        <div class="text-container">
+            <div class="sample-text"id="sampleText"></div>
+        </div>
+        <div class="input-container">
+            <textarea  class="input-text" id="inputText" placeholder="Type Here"></textarea>
+            <div class="buttons-container">
+                <div class="dis-speed bar-btn">
+                    <span style id="wpmid2">0 <small>WPM</small></span>
+                </div>
+                <div class="dis-timer bar-btn">
+                    <span style id="chngtime">00</span>
+                </div>
+                <div class="bar-btn reset-btn " id="rstbtn">
+                   <i class="fa fa-refresh" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="details-container">
+            <div class="det-child1">
+                <h2 ><span id="wpmid">0</span> WPM</h2>
+                <div class="field-container">
+                    <p class="field-element">Raw WPM <span class="field-value" id="rawwpm">-</span></p>
+                </div>
+                <div class="field-container">
+                    <p class="field-element">Accuracy <span class="field-value" id="accuracy">-</span></p>
+                </div>
+                <div class="field-container">
+                    <p class="field-element">Correct Characters <span class="field-value"id="corchar" >-</span></p>
+                </div>
+                <div class="field-container">
+                    <p class="field-element">Incorrect Characters <span class="field-value" id="incorchar">-</span></p>
+                </div>
+            </div>
+            <div class="det-child2">
+                <div class="filter-container">
+                    <p class="field-element"><span id="td">Test duration</span><span class="span-cont"><span class="time-filter tf2 cTim10 " id="tim10" >0:10</span> <span class="time-filter tf2" id="tim30">0:30</span> <span class="time-filter tf2" id="tim60">1:00</span> <span class="time-filter tf2" id="tim120">2:00</span></span></p>
+                </div>
+                <div class="filter-container">
+                    <p class="field-element">Word List  <span class="span-cont"><span class="time-filter cTim30" id="simple">Simple</span> <span class="time-filter" id="advanced">Advanced</span></span></p>
+                </div>
+                <div class="filter-container">
+                    <p class="field-element">Show WPM  <span class="span-cont"><span class="time-filter cTim60" id="showwpm">Show</span> <span class="time-filter" id="hidewpm">Hide</span></span></p>
+                </div>
+                <div class="filter-container">
+                    <p class="field-element">Show Timer  <span class="span-cont"><span class="time-filter cTim120" id="showtimer">Show</span> <span class="time-filter" id="hidetimer">Hide</span></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
